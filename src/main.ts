@@ -29,7 +29,7 @@ const ifcLoader = new OBC.FragmentIfcLoader(viewer)
 
 ifcLoader.settings.wasm = {
   absolute: true,
-  path:"https://unpgk.com/web-ifc@0.0.44/"
+  path:"https://unpgk.com/web-ifc@0.0.44/",
 };
 
 const highlighter = new OBC.FragmentHighlighter(viewer)
